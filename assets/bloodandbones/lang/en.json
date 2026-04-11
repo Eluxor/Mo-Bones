@@ -9,16 +9,16 @@
 
     "block-boneblock" : "Bone Block",
     
-    "game:item-hoe-bone": "Bone Hoe",
-    "game:item-hoehead-bone": "Bone Hoe head",
+    "game:item-hoe-boney": "Bone Hoe",
+    "game:item-hoehead-boney": "Bone Hoe head",
 
     "game:item-knife-generic-boney": "Bone Knife",
     "game:item-knifeblade-boney": "Bone Knife blade",
     
-    "game:item-shovel-bone": "Bone Shovel",
-    "game:item-shovelhead-bone": "Bone Shovel head",
+    "game:item-shovel-boney": "Bone Shovel",
+    "game:item-shovelhead-boney": "Bone Shovel head",
 
-    "game:item-axe-bone": "Bone Axe",
-    "game:item-axehead-bone": "Bone Axe head"
+    "game:item-axe-boney": "Bone Axe",
+    "game:item-axehead-boney": "Bone Axe head"
     
 }

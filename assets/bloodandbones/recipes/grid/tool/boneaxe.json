@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "TS",
+	ingredients: {
+		"T": { type: "item", code: "game:axehead-boney"},
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:axe-boney", quantity: 1  }
+}

@@ -9,6 +9,9 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"material": "game:block/creature/bone-yellow",
+		"string": "game:item/tool/material/string",
+		"handle": "game:item/tool/material/handle"
 	},
 	"elements": [
 		{

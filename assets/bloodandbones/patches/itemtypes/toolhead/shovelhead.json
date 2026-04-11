@@ -4,7 +4,7 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"bone"
+			"boney"
 		]
 	},
 	{
@@ -12,8 +12,28 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-			"*-bone": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
+			"*-boney": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
 		}
+	},
+	{
+		"file": "game:itemtypes/toolhead/shovelhead.json",
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"-boney": { "material": { "base": "game:block/creature/bone-yellow" } }
+		}
+	},
+	{
+		"file": "game:itemtypes/toolhead/shovelhead.json",
+		"op": "move",
+		"path": "/temp",
+		"frompath": "/texturesByType/*"
+	},
+	{
+		"file": "game:itemtypes/toolhead/shovelhead.json",
+		"op": "move",
+		"path": "/texturesByType/*",
+		"frompath": "/temp"
 	},
 	{
 		"file": "game:itemtypes/toolhead/shovelhead.json",

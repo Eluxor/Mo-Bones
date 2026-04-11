@@ -4,7 +4,7 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"bone"
+			"boney"
 		]
 	},
     {
@@ -12,7 +12,7 @@
 		"op": "addmerge",
 		"path": "/attributes/groundStorageTransformByType",
 		"value": {
-			"@shovel-(bone)": {
+			"@shovel-(boney)": {
 				"translation": { "x": 0, "y": 0.5, "z": -0.16 },
 				"rotation": { "x": 13, "y": 88, "z": -87 },
 				"scale": 0.88
@@ -36,7 +36,7 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-            "shovel-bone": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
+            "shovel-boney": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
         }	
 	},
     {
@@ -44,8 +44,8 @@
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
-            "*-bone": {
-			    "material": { "base": "bloodandbones:block/bone" }
+            "*-boney": {
+			    "material": { "base": "game:block/creature/bone-yellow" }
 		    },
         }	
 	},
@@ -66,7 +66,7 @@
 		"op": "addmerge",
 		"path": "/miningspeedbytype",
 		"value": {
-            "shovel-bone": {
+            "shovel-boney": {
                 "soil": 2.5,
                 "sand": 2.5,
                 "gravel": 2.1,
@@ -79,7 +79,7 @@
 		"op": "addmerge",
 		"path": "/durabilitybytype",
 		"value": {
-            "shovel-bone": 100
+            "shovel-boney": 100
         }	
 	},
     {
@@ -87,7 +87,7 @@
 		"op": "addmerge",
 		"path": "/attackpowerbytype",
 		"value": {
-            "shovel-bone": 1.25
+            "shovel-boney": 1.25
         }	
 	}
 ]

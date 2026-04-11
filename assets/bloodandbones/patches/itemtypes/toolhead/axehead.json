@@ -4,7 +4,7 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"bone"
+			"boney"
 		]
 	},
 	{
@@ -12,8 +12,28 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-			"*-bone": { "base": "bloodandbones:item/tool/axe-bone-indev" }
+			"*-boney": { "base": "bloodandbones:item/tool/axe-bone-indev" }
 		}
+	},
+	{
+		"file": "game:itemtypes/toolhead/axehead.json",
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"-boney": { "material": { "base": "game:block/stone/rock/obsidian" } }
+		}
+	},
+	{
+		"file": "game:itemtypes/toolhead/axehead.json",
+		"op": "move",
+		"path": "/temp",
+		"frompath": "/texturesByType/*"
+	},
+	{
+		"file": "game:itemtypes/toolhead/axehead.json",
+		"op": "move",
+		"path": "/texturesByType/*",
+		"frompath": "/temp"
 	},
 	{
 		"file": "game:itemtypes/toolhead/axehead.json",

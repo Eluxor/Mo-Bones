@@ -55,7 +55,7 @@
         "path": "/attributes/toolrackTransformByType/*",
         "frompath": "/temp"
     },
-   {
+	{
 		"file": "game:itemtypes/tool/knife.json",
 		"op": "addmerge",
 		"path": "/shapeByType",
@@ -73,37 +73,6 @@
             "knife-generic-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" }
 		}
 	},
-    {
-		"file": "game:itemtypes/tool/knife.json",
-		"op": "addmerge",
-		"path": "/texturesByType",
-		"value": {
-            "*-eluxor": {
-			    "material": { "base": "bloodandbones:block/bone" }
-		    },
-            "*-boney": {
-			    "material": { "base": "bloodandbones:block/bone" }
-		    },
-            "generic-boney": {
-			    "material": { "base": "bloodandbones:block/bone" }
-		    },
-            "knife-generic-boney": {
-			    "material": { "base": "bloodandbones:block/bone" }
-		    }
-        }	
-	},
-    {
-        "file": "game:itemtypes/tool/knife.json",
-        "op": "move",
-        "path": "/temp",
-        "frompath": "/texturesByType/*"
-    },
-    {
-        "file": "game:itemtypes/tool/knife.json",
-        "op": "move",
-        "path": "/texturesByType/*",
-        "frompath": "/temp"
-    },
     {
 		"file": "game:itemtypes/tool/knife.json",
 		"op": "addmerge",

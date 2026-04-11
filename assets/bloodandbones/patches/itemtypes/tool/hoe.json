@@ -4,7 +4,7 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"bone"
+			"boney"
 		]
 	},
     {
@@ -12,7 +12,7 @@
 		"op": "addmerge",
 		"path": "/attributes/groundStorageTransformByType",
 		"value": {
-			"@hoe-(bone)": {
+			"@hoe-(boney)": {
 				"translation": { "x": 0, "y": 0.04, "z": -0.23 },
 				"rotation": { "x": 23, "y": 87, "z": -90 },
 				"scale": 0.88
@@ -36,7 +36,7 @@
 		"op": "addmerge",
 		"path": "/attributes/toolrackTransformByType",
 		"value": {
-			"@hoe-(bone)": {
+			"@hoe-(boney)": {
 				"rotation": { "y": 1, "z": -1 },
 				"translation": { "x": -0.25, "y": 0.6 },
 				"scale": 1.25
@@ -60,7 +60,7 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-            "hoe-bone": { "base": "bloodandbones:item/tool/hoe-bone-indev" }
+            "hoe-boney": { "base": "bloodandbones:item/tool/hoe-bone-indev" }
         }	
 	},
     {
@@ -68,8 +68,8 @@
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
-            "*-bone": {
-			    "material": { "base": "bloodandbones:block/bone" }
+            "*-boney": {
+			    "material": { "base": "game:block/creature/bone-yellow" }
 		    },
         }
 	},
@@ -90,7 +90,7 @@
 		"op": "addmerge",
 		"path": "/miningspeedbytype",
 		"value": {
-            "hoe-bone": {
+            "hoe-boney": {
                 "soil": 2.0
             }
         }	
@@ -100,7 +100,7 @@
 		"op": "addmerge",
 		"path": "/durabilitybytype",
 		"value": {
-            "hoe-bone": 50
+            "hoe-boney": 50
         }	
 	},
     {
@@ -108,7 +108,7 @@
 		"op": "addmerge",
 		"path": "/attackpowerbytype",
 		"value": {
-            "hoe-bone": 1
+            "hoe-boney": 1
         }	
 	}
 ]

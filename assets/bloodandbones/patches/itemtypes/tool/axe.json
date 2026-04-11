@@ -4,7 +4,7 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"bone"
+			"boney"
 		]
 	},
     {
@@ -12,7 +12,7 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-            "axe-bone": { "base": "bloodandbones:item/tool/axe-bone-indev" }
+            "axe-boney": { "base": "bloodandbones:item/tool/axe-bone-indev" }
         }	
 	},
     {
@@ -20,8 +20,8 @@
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
-            "*-bone": {
-			    "material": { "base": "bloodandbones:block/bone" }
+            "*-boney": {
+			    "material": { "base": "game:block/creature/bone-yellow" }
 		    },
         }
 	},
@@ -42,7 +42,7 @@
 		"op": "addmerge",
 		"path": "/miningspeedbytype",
 		"value": {
-            "axe-bone": {
+            "axe-boney": {
                 "wood": 3.5,
                 "plant": 2.7,
                 "leaves": 2.4
@@ -54,7 +54,7 @@
 		"op": "addmerge",
 		"path": "/durabilitybytype",
 		"value": {
-            "axe-bone": 80
+            "axe-boney": 80
         }	
 	},
     {
@@ -62,7 +62,7 @@
 		"op": "addmerge",
 		"path": "/attackpowerbytype",
 		"value": {
-            "axe-bone": 1.5
+            "axe-boney": 1.5
         }	
 	}
 ]

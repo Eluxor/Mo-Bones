@@ -1,6 +1,6 @@
 [
 	{
-		"file": "game:itemtypes/toolhead/hoehead.json",
+		"file": "game:itemtypes/tool/shield.json",
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
@@ -8,21 +8,21 @@
 		]
 	},
 	{
-		"file": "game:itemtypes/toolhead/hoehead.json",
+		"file": "game:itemtypes/tool/shield.json",
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-			"*-boney": { "base": "bloodandbones:item/tool/hoe-bone-indev" }
+			"*-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" }
 		}
 	},
 	{
-		"file": "game:itemtypes/toolhead/hoehead.json",
+		"file": "game:itemtypes/tool/shield.json",
 		"op": "move",
 		"path": "/temp",
 		"frompath": "/shapeByType/*"
 	},
 	{
-		"file": "game:itemtypes/toolhead/hoehead.json",
+		"file": "game:itemtypes/tool/shield.json",
 		"op": "move",
 		"path": "/shapeByType/*",
 		"frompath": "/temp"
