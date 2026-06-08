@@ -4,7 +4,8 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"boney"
+			"boney",
+			"bone-boney"
 		]
 	},
     {
@@ -12,7 +13,8 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-            "axe-boney": { "base": "bloodandbones:item/tool/axe-bone-indev" }
+            "axe-boney": { "base": "bloodandbones:item/tool/axe-bone-indev" },
+			"axe-bone-boney": { "base": "bloodandbones:item/tool/axe-bone-indev" }
         }	
 	},
     {
@@ -20,9 +22,13 @@
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
-            "*-boney": {
-			    "material": { "base": "game:block/creature/bone-yellow" }
+            "*-bone-boney": {
+			    "material": { "base": "game:block/creature/bone-yellow" },
+				"handle": { "base": "game:block/creature/bone-yellow" }
 		    },
+			"*-boney": {
+			    "material": { "base": "game:block/creature/bone-yellow" }
+		    }
         }
 	},
     {
@@ -30,12 +36,6 @@
         "op": "move",
         "path": "/temp",
         "frompath": "/texturesByType/*"
-    },
-    {
-        "file": "game:itemtypes/tool/axe-stone.json",
-        "op": "move",
-        "path": "/texturesByType/*",
-        "frompath": "/temp"
     },
     {
 		"file": "game:itemtypes/tool/axe-stone.json",
@@ -49,14 +49,12 @@
             }
         }	
 	},
-    {
-		"file": "game:itemtypes/tool/axe-stone.json",
-		"op": "addmerge",
-		"path": "/durabilitybytype",
-		"value": {
-            "axe-boney": 80
-        }	
-	},
+	{
+        "file": "game:itemtypes/tool/axe-stone.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/miningspeedbytype/*"
+    },
     {
 		"file": "game:itemtypes/tool/axe-stone.json",
 		"op": "addmerge",
@@ -64,5 +62,11 @@
 		"value": {
             "axe-boney": 1.5
         }	
-	}
+	},
+	{
+        "file": "game:itemtypes/tool/axe-stone.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/attackpowerbytype/*"
+    },
 ]

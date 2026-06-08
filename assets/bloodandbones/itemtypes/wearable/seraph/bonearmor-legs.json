@@ -45,7 +45,7 @@
 		},
 		footStepSound: "wearable/leather*",
 		protectionModifiersByType: {
-			"armor-body-hide-*": {
+			"armor-body-hide-bone": {
 				relativeProtection: 0.65,
 				flatDamageReduction: 0.15,
 				protectionTier: 1

@@ -9,4 +9,14 @@
 		name: "Bone Block",
 		output: { type: "block", code: "bloodandbones:boneblock"  }
 	}
+	{
+		ingredientPattern: "B",
+		ingredients: {
+			"B": { type: "item", code: "bloodandbones:boneblock" }
+		},
+		width: 2,
+		height: 2,
+		name: "Bones",
+		output: { type: "item", code: "game:bone", quantity: 64  }
+	}
 ]
