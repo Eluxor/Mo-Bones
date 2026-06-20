@@ -19,5 +19,15 @@
 		width: 1,
 		height: 2,
 		output: { type: "item", code: "bloodandbones:fullboneknife-bone", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TK",
+		ingredients: {
+			"T": { type: "item", code: "game:bone"},
+			"K": { type: "item", code: "game:stone-*", isTool: true },
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:knifeblade-boney", quantity: 1  }
 	}
 ]

@@ -19,5 +19,15 @@
 		width: 1,
 		height: 2,
 		output: { type: "item", code: "game:hoe-bone-boney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "K,B,B",
+		ingredients: {
+			"B": { type: "item", code: "game:bone"},
+			"K": { type: "item", code: "game:stone-*", isTool: true },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:hoehead-boney", quantity: 1  }
 	}
 ]

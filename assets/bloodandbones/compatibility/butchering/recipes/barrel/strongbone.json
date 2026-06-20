@@ -1,0 +1,7 @@
+{
+	code: "strongbone",
+	ingredients: [
+		{ type: "item", code: "butchering:strongbone", quantity: 1 }
+	],
+	output: { type: "item", code: "game:bone", quantity: 1 }
+}

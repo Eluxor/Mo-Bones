@@ -1,30 +1,37 @@
 [
   {
-    "file": "recipes/grid/tool/boneaxehead.json",
+    "file": "recipes/grid/tool/boneaxe.json",
     "op": "add",
-    "path": "/enabled",
+    "path": "/2/enabled",
     "value": false,
     "dependsOn": [{ "modid": "butchering" }]
   },
   {
-    "file": "recipes/grid/tool/bonehoehead.json",
+    "file": "recipes/grid/tool/boneknife.json",
     "op": "add",
-    "path": "/enabled",
+    "path": "/2/enabled",
     "value": false,
     "dependsOn": [{ "modid": "butchering" }]
   },
   {
-    "file": "recipes/grid/tool/boneknifehead.json",
+    "file": "recipes/grid/tool/boneshovel.json",
     "op": "add",
-    "path": "/enabled",
+    "path": "/2/enabled",
     "value": false,
     "dependsOn": [{ "modid": "butchering" }]
   },
   {
-    "file": "recipes/grid/tool/boneshovelhead.json",
+    "file": "recipes/grid/tool/bonehoe.json",
     "op": "add",
-    "path": "/enabled",
+    "path": "/2/enabled",
     "value": false,
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "file": "itemtypes/wearable/seraph/bonearmor-body.json",
+    "path": "/variantgroups/2/states/1",
+    "op": "remove",
     "dependsOn": [{ "modid": "butchering" }]
   }
+
 ]

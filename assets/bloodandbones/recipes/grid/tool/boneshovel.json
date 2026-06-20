@@ -19,5 +19,15 @@
 		width: 1,
 		height: 2,
 		output: { type: "item", code: "game:shovel-bone-boney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_T_,TKT",
+		ingredients: {
+			"T": { type: "item", code: "game:bone"},
+			"K": { type: "item", code: "game:stone-*", isTool: true },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:shovelhead-boney", quantity: 1  }
 	}
 ]

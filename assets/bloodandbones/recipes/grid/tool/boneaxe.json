@@ -19,5 +19,16 @@
 		width: 1,
 		height: 2,
 		output: { type: "item", code: "game:axe-bone-boney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TTK,__T",
+		ingredients: {
+			"T": { type: "item", code: "game:bone"},
+			"K": { type: "item", code: "game:stone-*", isTool: true }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:axehead-boney", quantity: 1  }
 	}
+
 ]
